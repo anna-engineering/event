@@ -1,0 +1,22 @@
+{
+  "name": "anna-engineering/event",
+  "autoload": {
+    "psr-4": {
+      "A\\Event": ["src/A/Event"]
+    },
+    "files": [
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "": ["tests/"]
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "brianium/paratest": "*"
+  }
+}
