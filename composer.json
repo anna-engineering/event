@@ -2,7 +2,7 @@
   "name": "anna-engineering/event",
   "autoload": {
     "psr-4": {
-      "A\\Event": ["src/A/Event"]
+      "A\\Event\\": ["src/A/Event"]
     },
     "files": [
       "src/functions.php"
