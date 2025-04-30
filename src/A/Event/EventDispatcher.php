@@ -22,7 +22,7 @@ final class EventDispatcher
         }
     }
 
-    public function instance() : static
+    public static function instance() : static
     {
         static $instance = null;
 
