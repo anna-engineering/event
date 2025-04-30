@@ -21,4 +21,16 @@ final class EventDispatcher
             ($listener)(...$arguments);
         }
     }
+
+    public function instance() : static
+    {
+        static $instance = null;
+
+        if ($instance === null)
+        {
+            $instance = new static();
+        }
+
+        return $instance;
+    }
 }
